@@ -36,7 +36,7 @@ export function CtaSection({ className }: SectionProps) {
                   'after:bg-white hover:text-accent-700 dark:hover:text-accent-700'
                 )}
               >
-                <span>SUSCRIBE</span>
+                <span>SUBSCRIBE</span>
               </Button>
             </form>
           </div>

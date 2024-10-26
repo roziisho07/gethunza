@@ -17,7 +17,7 @@ export function TestimonialCard({
   return (
     <div className="h-full rounded-5 bg-accent-100 p-6 transition-transform duration-350 hover:[transform:translateY(-.5rem)] dark:bg-accent-700 sm:p-[50px]">
       <div className="flex flex-col gap-12 md:flex-row md:gap-5">
-        <div className="relative max-w-max flex-none">
+        <div className="relative max-w-max flex-none ">
           <Image
             src={image.src}
             alt={image.alt}
@@ -25,7 +25,7 @@ export function TestimonialCard({
             height={180}
             placeholder="blur"
             blurDataURL={blurDataUrl}
-            className="rounded-5 object-cover mix-blend-luminosity"
+            className="rounded-full object-cover "
           />
           <span className="absolute left-1/2 grid h-[50px] w-[50px] -translate-x-1/2 -translate-y-1/2 place-items-center  rounded-full border-2 border-primary-light bg-primary text-lg/[1] text-white">
             <FaQuoteRight />

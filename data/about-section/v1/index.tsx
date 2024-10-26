@@ -62,7 +62,7 @@ export const aboutSectionData: AboutSectionProps = {
     subtitle: 'About us',
     title: 'Empowering Your Digital Tomorrow',
     description:
-      'we deliver Innovative Excellence through a range of solutions designed to elevate your business. From cutting-edge web development and custom software to expert architectural, accounting, and creative services, we ensure every project meets the highest standards. Our digital marketing and graphic design teams are committed to driving your brand’s success with innovative strategies that make an impact.',
+      'We deliver Innovative Excellence through a range of solutions designed to elevate your business. From cutting-edge web development and custom software to expert architectural, accounting, and creative services, we ensure every project meets the highest standards. Our digital marketing and graphic design teams are committed to driving your brand’s success with innovative strategies that make an impact.',
   },
   keyPoints: [
     {
@@ -75,5 +75,5 @@ export const aboutSectionData: AboutSectionProps = {
     },
   ],
   description:
-    'Partner with us, and let’s build your future together with solutions that work for you.',
+    'Partner with us, and let’s build your business together with solutions that work for you.',
 };

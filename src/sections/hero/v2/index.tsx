@@ -39,15 +39,15 @@ export function HeroSection() {
     customers,
     customerCounterInfo,
     ctaButton,
-    imageLarge,
-    description,
+    // imageLarge,
+    // description,
     imageSmall,
     statisticsCounterInfo,
   } = heroSectionData;
 
   return (
-    <section className="relative z-1 overflow-hidden pb-[140px] pt-[120px] lg:pt-[255px]">
-      <div className="absolute left-0 top-0 -z-1 hidden animate-float-bob-y opacity-20 lg:block">
+    <section className="relative z-1 overflow-hidden pb-[140px] pt-[120px]   lg:pt-[200px]">
+      <div className="absolute left-0 top-0 -z-1  hidden animate-float-bob-y opacity-20 lg:block">
         <Image
           src="/assets/images/hero/shape-1.png"
           alt="hero shape 1"
@@ -58,7 +58,7 @@ export function HeroSection() {
           blurDataURL={blurDataUrl}
         />
       </div>
-      <div className="absolute right-0 top-[180px] -z-1 hidden animate-float-bob-y opacity-30 2xl:block">
+      <div className="absolute right-0 top-[180px] -z-1 hidden animate-float-bob-y opacity-30 2xl:block ">
         <Image
           src="/assets/images/hero/shape-3.png"
           alt="hero shape 1"
@@ -70,8 +70,8 @@ export function HeroSection() {
         />
       </div>
       <Container>
-        <div className="grid gap-30px text-center text-accent-900 dark:text-white lg:grid-cols-12 xl:text-left">
-          <div className="lg:col-span-6 lg:text-left xl:col-span-4 xl:[text-align:inherit]">
+        <div className="grid gap-30px  text-center text-accent-900 dark:text-white lg:grid-cols-12 xl:text-left">
+          <div className="lg:col-span-6 lg:text-left xl:col-span-6 xl:[text-align:inherit]">
             <h1 className="h1 mb-[60px] lg:mb-[130px]">{title}</h1>
             <div className="flex items-center justify-center gap-4 lg:justify-start">
               {customers && customers.length > 0 && (
@@ -123,22 +123,22 @@ export function HeroSection() {
               </CustomLink>
             </Button>
           </div>
-          <div className="lg:col-span-6 xl:col-span-5">
+          {/* <div className="lg:col-span-6 xl:col-span-5">
             <div className="relative z-1 mx-auto block w-full max-w-[410px] pt-[85px] text-center">
               <span className="absolute inset-0 -z-[1] rounded-t-[205px] bg-accent-700"></span>
-              <span className="absolute inset-0 -bottom-5 -right-5 z-[-2] rounded-b-5 rounded-t-[205px] [background:linear-gradient(180deg,rgba(185,18,2,0.00)_0%,#B91202_100%)]"></span>
+              <span className="absolute inset-0 -bottom-5 -right-5 z-[-2] rounded-b-5 rounded-t-[205px] [background:linear-gradient(180deg,_0%,#B91202_100%)]"></span>
               <Image
                 src={imageLarge.src}
                 alt={imageLarge.alt}
-                width={355}
+                width={400}
                 height={505}
                 sizes="100vw"
                 className="object-cover"
                 blurDataURL={blurDataUrl}
               />
             </div>
-          </div>
-          <div className="relative z-1 max-xl:mx-auto max-xl:mt-[75px] max-xl:max-w-[600px] lg:col-span-12 xl:col-span-3">
+          </div> */}
+          <div className="relative z-1 max-xl:mx-auto max-xl:mt-[75px] max-xl:max-w-[600px] lg:col-span-12 xl:col-span-6">
             <div className="absolute left-[-85px] top-[-60px] -z-1 animate-rotate-me">
               <Image
                 src="/assets/images/hero/shape-2.png"
@@ -150,29 +150,29 @@ export function HeroSection() {
                 blurDataURL={blurDataUrl}
               />
             </div>
-            <p className="mb-[75px] text-accent-800 dark:text-body">
+            {/* <p className="mb-[75px] text-accent-800 dark:text-body">
               {description}
-            </p>
+            </p> */}
             <div
               className={cn(
                 // General
-                'relative z-1 mx-auto block w-full max-w-[220px] animate-float-bob-y',
+                'relative z-1 mx-auto block w-full max-w-[420px] animate-float-bob-y',
 
                 // After
-                'after:absolute after:inset-0 after:-z-1 dark:after:[background:linear-gradient(180deg,rgba(20,20,22,0.00)_33.51%,#141416_100%)]'
+                'after:absolute after:inset-0 after:-z-1 dark:after:[background:linear-gradient(180deg,_33.51%,#141416_100%)]'
               )}
             >
-              <Image
+              <Image  
                 src={imageSmall.src}
                 alt={imageSmall.alt}
-                width={220}
-                height={220}
+                width={520}
+                height={520}
                 sizes="100vw"
                 className="object-cover"
                 blurDataURL={blurDataUrl}
               />
             </div>
-            <div className="mt-10 flex items-center justify-center gap-5 lg:mt-[60px] xl:justify-start">
+            <div className="mt-10 pt-9 flex items-center justify-center gap-5 lg:mt-[60px]  ">
               <svg
                 width={65}
                 height={66}
@@ -201,7 +201,7 @@ export function HeroSection() {
                   </clipPath>
                 </defs>
               </svg>
-              <div className="h2 font-secondary">
+              <div className="h2 font-secondary pt-4 ">
                 <Counter
                   end={statisticsCounterInfo.count}
                   suffix={statisticsCounterInfo.suffix}

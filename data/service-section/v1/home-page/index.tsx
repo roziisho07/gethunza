@@ -144,21 +144,21 @@ export const serviceSectionData: ServiceSectionProps = {
       icon: <Icon2 />,
       title: 'Custom Software Development',
       description:
-        'Our custom software solutions are designed to streamline your operations and provide a scalable platform to help your business grow.',
+        'Our custom software solutions are designed to streamline your operations and provide a scalable platform to help your business grow. Get started now!',
       slug: '/services/software',
     },
     {
       icon: <Icon3 />,
       title: 'Architectural Services',
       description:
-        'Offering innovative architectural designs and planning services to bring your vision to life with creativity and precision.',
+        'Offering innovative architectural designs and planning services to bring your vision to life with creativity and precision. Request a quote!',
       slug: '/services/architecture',
     },
     {
       icon: <Icon4 />,
       title: 'Accounting Services',
       description:
-        'We provide professional accounting services to manage your finances efficiently, ensuring compliance and financial clarity.',
+        'We provide professional accounting services to manage your finances efficiently, ensuring compliance and financial clarity with data driven insights.',
       slug: '/services/accounting',
     },
     {
@@ -172,7 +172,7 @@ export const serviceSectionData: ServiceSectionProps = {
       icon: <Icon6 />,
       title: 'Digital Marketing',
       description:
-        'We craft data-driven digital marketing strategies to boost your online presence and drive customer engagement and conversions.',
+        'We craft data-driven digital marketing strategies to boost your online presence and drive customer engagement and conversions. Get noticed and grow!',
       slug: '/services/marketing',
     },
   ],
