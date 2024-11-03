@@ -15,16 +15,16 @@ export default function Page() {
     <>
       <MainHeader version="2" />
       <HeroSection
-        title="Services"
-        breadcrumbItems={[
-          {
-            label: 'Home',
-            href: '/',
-          },
-          {
-            label: 'Service',
-          },
-        ]}
+        // title="Services"
+        // breadcrumbItems={[
+        //   {
+        //     label: 'Home',
+        //     href: '/',
+        //   },
+        //   {
+        //     label: 'Service',
+        //   },
+        // ]}
       />
       <ServiceSection {...serviceSectionData} />
       <Footer />

@@ -3,7 +3,7 @@ import { TestimonialSectionProps } from '@/src/sections/testimonial/v1';
 export const testimonialSectionData: TestimonialSectionProps = {
   sectionHeading: {
     subtitle: 'Clients testimonial',
-    title: 'Top Rated',
+    title: 'Providing Top Notch Services To Our Clients',
   },
   cards: [
     {

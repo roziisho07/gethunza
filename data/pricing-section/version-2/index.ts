@@ -51,5 +51,53 @@ export const pricingSectionData: PricingSectionProps = {
         label: 'Select Plan',
       },
     },
+    {
+      title: 'Premium Plan',
+      description: 'Lorem Ipsum is simply dummy text of the printing.',
+      features: [
+        'Mistakes To Avoid',
+        'Your Startup',
+        'Knew About Fonts',
+        'Winning Metric for Your Startup',
+      ],
+      price: '$99',
+      duration: '/month',
+      button: {
+        href: '/',
+        label: 'Select Plan',
+      },
+    },
+    {
+      title: 'Premium Plan',
+      description: 'Lorem Ipsum is simply dummy text of the printing.',
+      features: [
+        'Mistakes To Avoid',
+        'Your Startup',
+        'Knew About Fonts',
+        'Winning Metric for Your Startup',
+      ],
+      price: '$99',
+      duration: '/month',
+      button: {
+        href: '/',
+        label: 'Select Plan',
+      },
+    },
+    {
+      title: 'Premium Plan',
+      description: 'Lorem Ipsum is simply dummy text of the printing.',
+      features: [
+        'Mistakes To Avoid',
+        'Your Startup',
+        'Knew About Fonts',
+        'Winning Metric for Your Startup',
+      ],
+      price: '$99',
+      duration: '/month',
+      button: {
+        href: '/',
+        label: 'Select Plan',
+      },
+    },
   ],
 };

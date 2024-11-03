@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa6';
 export const footerSectionData: FooterSectionProps = {
   about: {
     description:
-      'Lorem Ipsum is simply is dumi omy is text Loremo Ipsum is simply is out no our o dummy text.',
+      'Hire experienced, world-class remote talent to elevate customer experiences and fuel your brand’s growth.',
     socialLinks: [
       {
         icon: <FaFacebookF />,
@@ -21,18 +21,14 @@ export const footerSectionData: FooterSectionProps = {
     ],
   },
   columnOne: {
-    title: 'Get Free Link',
+    title: 'Useful Links',
     links: [
       {
         label: 'Software Development',
         href: '/',
         openNewTab: false,
       },
-      {
-        label: 'Data Analytics',
-        href: '/',
-        openNewTab: false,
-      },
+
       {
         label: 'IT Consulting',
         href: '/',
@@ -43,11 +39,7 @@ export const footerSectionData: FooterSectionProps = {
         href: '/',
         openNewTab: false,
       },
-      {
-        label: 'Network Solutions',
-        href: '/',
-        openNewTab: false,
-      },
+
       {
         label: 'Others',
         href: '/',
@@ -56,30 +48,30 @@ export const footerSectionData: FooterSectionProps = {
     ],
   },
   columnTwo: {
-    title: 'Address',
-    location: '2972 Westheimer Rd. Santa Ana, Illinois 85486 ',
-    mails: ['debbie.baker@example.com', 'nevaeh.simm@example.com'],
+    title: 'Contact info',
+    location: 'Darby Trails Dr, Sugar Land TX, 77479',
+    mails: ['info@gethunza.com', 'inquiry@gethunza.com'],
     phoneNumbers: ['(405) 555-0128', '(629) 555-0129'],
   },
   columnThree: {
-    title: 'Recent Blog',
+    title: 'Recent Blogs',
     blogs: [
       {
         image: {
-          src: '/assets/images/blog/blog-sm-1.jpg',
-          alt: 'We provide a range of IT solutions',
+          src: '/assets/images/service-details/soft-2.jpg',
+          alt: 'Blockchain Solutions',
         },
-        title: 'We provide a range of IT solutions',
-        date: 'january 11, 2024',
+        title: 'Blockchain Solutions for your business',
+        date: 'Jan 11, 2024',
         slug: './blog-details',
       },
       {
         image: {
-          src: '/assets/images/blog/blog-sm-2.jpg',
-          alt: 'IT solutions enhance efficiency',
+          src: '/assets/images/service-details/soft-3.jpg',
+          alt: 'Generative AI in business',
         },
-        title: 'IT solutions enhance efficiency',
-        date: 'january 11, 2024',
+        title: 'Generative AI in business',
+        date: 'Aug 24, 2024',
         slug: './blog-details',
       },
     ],
@@ -88,7 +80,7 @@ export const footerSectionData: FooterSectionProps = {
     copyrightText: '© gethunza  2024 | All Rights Reserved',
     links: [
       {
-        label: 'Trams & Condition',
+        label: 'Terms & Conditions',
         href: '/',
         openNewTab: false,
       },

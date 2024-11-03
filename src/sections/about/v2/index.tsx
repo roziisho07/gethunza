@@ -17,13 +17,13 @@ export interface AboutSectionProps {
 export function AboutSection() {
   const { sectionHeading, aboutUsPoints, image, videoUrl } = aboutSectionData;
   return (
-    <section className="section-padding-primary overflow-hidden">
+    <section className="overflow-hidden">
       <Container>
-        <div className="flex flex-col items-center justify-between gap-x-16 gap-y-[60px] lg:flex-row xl:gap-x-[120px]">
+        <div className="flex flex-col  justify-between gap-x-16 gap-y-[60px] lg:flex-row xl:gap-x-[120px]">
           <div
             className="lg:w-1/2"
-            data-aos="fade-up-right"
-            data-aos-delay="400"
+            // data-aos="fade-up-right"
+            // data-aos-delay="400"
           >
             <SectionHeading {...sectionHeading} />
             {aboutUsPoints && aboutUsPoints.length > 0 && (
@@ -47,8 +47,8 @@ export function AboutSection() {
           <div className="lg:w-[45%]">
             <div
               className="group relative z-1 mx-auto"
-              data-aos="fade-up-left"
-              data-aos-delay="400"
+              // data-aos="fade-up-left"
+              // data-aos-delay="400"
             >
               <VideoPlayer
                 thumbnail={{

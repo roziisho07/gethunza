@@ -14,16 +14,16 @@ export default function Page() {
     <>
       <MainHeader version="2" />
       <HeroSection
-        title="Team"
-        breadcrumbItems={[
-          {
-            label: 'Home',
-            href: '/',
-          },
-          {
-            label: 'Team',
-          },
-        ]}
+        // title="Team"
+        // breadcrumbItems={[
+        //   {
+        //     label: 'Home',
+        //     href: '/',
+        //   },
+        //   {
+        //     label: 'Team',
+        //   },
+        // ]}
       />
       <TeamSection />
       <Footer />

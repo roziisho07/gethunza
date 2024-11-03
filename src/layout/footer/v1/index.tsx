@@ -78,7 +78,7 @@ export function Footer({ className }: SectionProps) {
         <Container>
           <div className="grid gap-10 md:grid-cols-2  xl:grid-cols-4">
             {/* About  */}
-            <div data-aos="fade-up" data-aos-delay="200">
+            <div>
               <BrandLogo />
               <p className="mb-7 mt-3">{about.description}</p>
               {about.socialLinks && about.socialLinks.length > 0 && (
@@ -102,7 +102,7 @@ export function Footer({ className }: SectionProps) {
             </div>
 
             {/* Column one  */}
-            <div data-aos="fade-up" data-aos-delay="400">
+            <div>
               <h3 className={titleClasses}>{columnOne.title}</h3>
               {columnOne.links && columnOne.links.length > 0 && (
                 <nav aria-label="footer links navigation">
@@ -130,7 +130,7 @@ export function Footer({ className }: SectionProps) {
             </div>
 
             {/* Column Two  */}
-            <div data-aos="fade-up" data-aos-delay="600">
+            <div>
               <h3 className={titleClasses}>{columnTwo.title}</h3>
               <ul aria-label="addresses" className="grid gap-5">
                 <li className={addressItemClasses}>
@@ -180,7 +180,7 @@ export function Footer({ className }: SectionProps) {
             </div>
 
             {/* Column three  */}
-            <div data-aos="fade-up" data-aos-delay="800">
+            <div>
               <h3 className={titleClasses}>{columnThree.title}</h3>
               {columnThree.blogs && columnThree.blogs.length > 0 && (
                 <div className="grid gap-6">

@@ -12,18 +12,18 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <MainHeader version="2" />
+      <MainHeader version="1" />
       <HeroSection
-        title="Blog Classic"
-        breadcrumbItems={[
-          {
-            label: 'Home',
-            href: '/',
-          },
-          {
-            label: 'Blog Classic',
-          },
-        ]}
+        // title="Blog Classic"
+        // breadcrumbItems={[
+        //   {
+        //     label: 'Home',
+        //     href: '/',
+        //   },
+        //   {
+        //     label: 'Blog Classic',
+        //   },
+        // ]}
       />
       <BlogListSection />
       <Footer />

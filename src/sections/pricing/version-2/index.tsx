@@ -1,6 +1,6 @@
 import { PricingCard, PricingCardProps } from 'src/components/cards/pricing/v2';
 import { Container } from '@/src/components/container';
-import { getStaggeredDelay } from '@/src/utils/set-staggered-delay';
+// import { getStaggeredDelay } from '@/src/utils/set-staggered-delay';
 import { pricingSectionData } from '@/data/pricing-section/version-2';
 import { SectionProps } from '@/src/common-types';
 import { cn } from '@/src/utils/shadcn';
@@ -20,8 +20,8 @@ export function PricingSection({ className }: SectionProps) {
             {cards.map((card, index) => (
               <div
                 key={index}
-                data-aos="fade-up"
-                data-aos-delay={getStaggeredDelay([200, 400, 600], index)}
+                // data-aos="fade-up"
+                // data-aos-delay={getStaggeredDelay([200, 400, 600], index)}
                 className="w-full px-4 md:w-1/2 md:px-[15px] lg:w-1/3"
               >
                 <PricingCard {...card} />
