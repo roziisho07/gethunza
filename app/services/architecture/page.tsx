@@ -14,16 +14,7 @@ export default function Page() {
     <>
       <MainHeader version="2" />
       <HeroSection
-        title="Architecture Services"
-        breadcrumbItems={[
-          {
-            label: 'Services',
-            href: '/',
-          },
-          {
-            label: 'Architecture',
-          },
-        ]}
+       
       />
       <ServiceDetailsSection />
       <Footer />

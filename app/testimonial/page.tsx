@@ -14,18 +14,7 @@ export default function Page() {
   return (
     <>
       <MainHeader version="2" />
-      <HeroSection
-        title="Testimonial"
-        breadcrumbItems={[
-          {
-            label: 'Home',
-            href: '/',
-          },
-          {
-            label: 'Testimonial',
-          },
-        ]}
-      />
+      <HeroSection />
       <TestimonialSection />
       <CtaSection className="section-padding-primary !pt-0" />
       <Footer />

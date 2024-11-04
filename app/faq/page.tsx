@@ -13,18 +13,7 @@ export default function Page() {
   return (
     <>
       <MainHeader version="2" />
-      <HeroSection
-        title="Faq"
-        breadcrumbItems={[
-          {
-            label: 'Home',
-            href: '/',
-          },
-          {
-            label: 'Faq',
-          },
-        ]}
-      />
+      <HeroSection />
       <FAQSection />
       <Footer />
     </>

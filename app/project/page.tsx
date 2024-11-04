@@ -15,16 +15,7 @@ export default function Page() {
     <>
       <MainHeader version="2" />
       <HeroSection
-        title="Project"
-        breadcrumbItems={[
-          {
-            label: 'Home',
-            href: '/',
-          },
-          {
-            label: 'Project',
-          },
-        ]}
+        
       />
       <ProjectSection {...projectSectionData} />
       <Footer />
