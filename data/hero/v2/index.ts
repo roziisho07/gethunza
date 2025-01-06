@@ -17,12 +17,12 @@ export const heroSectionData: HeroSectionProps = {
     },
   ],
   customerCounterInfo: {
-    count: 100,
+    count: 2000,
     about: 'Satisfied Customer',
     suffix: '+',
   },
   ctaButton: {
-    href: '',
+    href: '/contact',
     label: 'Get Started',
   },
   imageLarge: {
@@ -36,7 +36,7 @@ export const heroSectionData: HeroSectionProps = {
     alt: 'image 6',
   },
   statisticsCounterInfo: {
-    count: 120,
+    count: 2500,
     about: 'Projects Completed ',
     suffix: '+',
   },

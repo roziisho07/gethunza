@@ -1,4 +1,4 @@
-import { Footer } from '@/src/layout/footer/v2';
+import { Footer } from '@/src/layout/footer/v1';
 import { MainHeader } from '@/src/layout/header';
 import { BlogListSection } from '@/src/sections/blog-list';
 import { HeroSection } from '@/src/sections/hero/v3';

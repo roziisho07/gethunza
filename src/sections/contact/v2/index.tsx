@@ -18,17 +18,16 @@ export interface ContactSectionProps {
 
 export const contactSectionData: ContactSectionProps = {
   sectionHeading: {
-    title: 'Feel free to messege',
+    title: 'Request a Quote',
   },
   contactInfo: {
     sectionHeading: {
-      title: 'Get in touch ',
+      title: 'Connect with Us',
       description:
-        'It is a long established fact that a reader will be distrol acted bioiiy desig the rea dablea contentIt is a long established fact that a reader will be ',
+        'Reach out to our team for inquiries, support, or a personalized quote. ',
     },
-    location: `Dhaka 102, utl 1216, road 45 house
-shantighar rahuta, 1213`,
-    mail: 'ijmnhhasan000@yourmail.com',
+    location: `Head office Gethunza, Darby Trails Dr, Sugar Land TX`,
+    mail: 'hello@gethunza.com',
     phone: '0000-0000-00-000',
   },
 };

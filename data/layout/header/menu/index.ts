@@ -5,18 +5,18 @@ export const menuItemsProps: HeaderProps['menuItems'] = [
     label: 'Home',
     href: '/',
   },
-  {
-    label: 'About',
-    href: '/about',
-  },
+  // {
+  //   label: 'About',
+  //   href: '/about',
+  // },
   {
     label: 'Services',
     href: '/services',
   },
-  {
-    label: 'Blog',
-    href: '/blog',
-  },
+  // {
+  //   label: 'Blog',
+  //   href: '/blog',
+  // },
   // {
   //   title: 'Project',
   //   subMenuItems: [

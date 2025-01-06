@@ -217,7 +217,7 @@ export function Footer({ className }: SectionProps) {
                     </article>
                   ))}
                 </div>
-              )}
+              )}  
             </div>
           </div>
         </Container>
