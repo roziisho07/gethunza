@@ -6,7 +6,7 @@ interface MainHeaderProps {
   version?: '1' | '2';
 }
 
-export function MainHeader({ version = '2' }: MainHeaderProps) {
+export function MainHeader({ version = '1' }: MainHeaderProps) {
   return (
     <>
       {version === '1' && <HeaderV1 />}

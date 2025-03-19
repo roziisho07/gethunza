@@ -1,8 +1,8 @@
-import { LinkProps, blurDataUrl } from '@/src/common-types';
-import { Button } from '@/src/components/button';
+import { LinkProps, } from '@/src/common-types';
+// import { Button } from '@/src/components/button';
 import { Container } from '@/src/components/container';
 import { CustomLink } from '@/src/components/custom-link';
-import { TextInput } from '@/src/components/inputs/text-input';
+// import { TextInput } from '@/src/components/inputs/text-input';
 import { cn } from '@/src/utils/shadcn';
 import Image from 'next/image';
 import { FaCircleCheck, FaPhone } from 'react-icons/fa6';
@@ -88,13 +88,13 @@ export function ServiceDetailsSection() {
                 'before:absolute before:inset-0 before:z-[2] before:[background:linear-gradient(180deg,rgba(185,18,2,0.00)_0%,rgba(185,18,2,0.22)_100%)]'
               )}
             >
-              <Image
+              {/* <Image
                 src="/assets/images/project-details/sidebar-phone-number-box-bg.jpg"
                 alt="sidebar-phone-number-box-bg"
                 fill
                 placeholder="blur"
                 blurDataURL={blurDataUrl}
-              />
+              /> */}
               <div className="relative z-10 text-center text-white">
                 <span className="inline-grid h-[68px] w-[68px] place-items-center rounded-full bg-primary text-lg/[1] text-white">
                   <FaPhone />
@@ -110,7 +110,7 @@ export function ServiceDetailsSection() {
             </div>
 
             {/* Search box  */}
-            <div className="bg-accent-100 p-10 dark:bg-accent-700">
+            {/* <div className="bg-accent-100 p-10 dark:bg-accent-700">
               <h3 className="h3 text-accent-700 dark:text-white">
                 Search Service
               </h3>
@@ -125,10 +125,10 @@ export function ServiceDetailsSection() {
                   <span className="relative z-1">SEARCH</span>
                 </Button>
               </div>
-            </div>
+            </div> */}
 
             {/* Testimonial    */}
-            <div className="grid gap-30px">
+            {/* <div className="grid gap-30px">
               <div className="relative z-1 bg-accent-100 p-10 dark:bg-accent-700">
                 <p>
                   {`At GETHUNZA, we are driven by a passion for innovation and excellence. Over the years, we’ve built a company that combines cutting-edge technologies like AI, blockchain, and eCommerce to deliver transformative web development solutions. Our mission is to empower businesses with intelligent, secure, and scalable digital platforms that push the boundaries of what's possible online. With a commitment to quality and customer satisfaction, we take pride in being a trusted partner for our clients’ digital growth and success.`}
@@ -161,19 +161,20 @@ export function ServiceDetailsSection() {
                   <p>CEO GETHUNZA</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Main Content  */}
           <div className="grid gap-6">
             <div className="relative mb-5 overflow-hidden rounded-5">
-              <Image
+              {/* <Image
                 src={'/assets/images/service-details/main-image-1.png'}
                 alt="service image main"
                 width={850}
                 height={512}
-              />
-              <span className="absolute left-30px top-30px rounded-[0_8px_30px_8px] bg-white p-2.5 text-primary">
+              /> */}
+              <h1 className='text-3xl'>Web Development</h1>
+              {/* <span className="absolute left-30px top-30px rounded-[0_8px_30px_8px] bg-white p-2.5 text-primary">
                 <svg
                   width="40"
                   height="40"
@@ -189,7 +190,7 @@ export function ServiceDetailsSection() {
                   <path d="M2.67774 12.7082C1.99593 12.7082 1.31543 12.7017 0.634921 12.7082C0.280328 12.7082 -0.00387107 12.5987 3.98853e-05 12.2102C0.00395084 11.8217 0.286845 11.7096 0.641438 11.7109C2.03504 11.7109 3.42864 11.7109 4.82355 11.7109C5.17944 11.7109 5.44278 11.8491 5.42975 12.2402C5.41671 12.6313 5.14685 12.7069 4.81703 12.7056C4.10393 12.7043 3.39084 12.7082 2.67774 12.7082Z" />
                   <path d="M37.2442 12.7095C36.5467 12.7095 35.8506 12.7095 35.1583 12.7095C34.8129 12.7095 34.5208 12.6287 34.5195 12.2233C34.5182 11.8178 34.7959 11.7136 35.1466 11.7149C36.5415 11.7149 37.9355 11.7149 39.3287 11.7149C39.6885 11.7149 39.9558 11.8557 39.9492 12.2363C39.9414 12.5922 39.6794 12.716 39.3404 12.7121C38.6378 12.7043 37.9416 12.7095 37.2442 12.7095Z" />
                 </svg>
-              </span>
+              </span> */}
             </div>
             <p>
               {`In today’s digital-first world, your website is more than just an

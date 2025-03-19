@@ -1,8 +1,8 @@
-import { LinkProps, blurDataUrl } from '@/src/common-types';
-import { Button } from '@/src/components/button';
+import { LinkProps } from '@/src/common-types';
+// import { Button } from '@/src/components/button';
 import { Container } from '@/src/components/container';
 import { CustomLink } from '@/src/components/custom-link';
-import { TextInput } from '@/src/components/inputs/text-input';
+// import { TextInput } from '@/src/components/inputs/text-input';
 import { cn } from '@/src/utils/shadcn';
 import Image from 'next/image';
 import { FaCircleCheck, FaPhone } from 'react-icons/fa6';
@@ -10,7 +10,7 @@ import { FaCircleCheck, FaPhone } from 'react-icons/fa6';
 const services: LinkProps[] = [
   {
     label: 'Custom Software Dev',
-    href: '/',
+    href: '',
   },
   {
     label: 'AI and Machine Learning Integration',
@@ -88,13 +88,13 @@ export function ServiceDetailsSection() {
                 'before:absolute before:inset-0 before:z-[2] before:[background:linear-gradient(180deg,rgba(185,18,2,0.00)_0%,rgba(185,18,2,0.22)_100%)]'
               )}
             >
-              <Image
+              {/* <Image
                 src="/assets/images/project-details/sidebar-phone-number-box-bg.jpg"
                 alt="sidebar-phone-number-box-bg"
                 fill
                 placeholder="blur"
                 blurDataURL={blurDataUrl}
-              />
+              /> */}
               <div className="relative z-10 text-center text-white">
                 <span className="inline-grid h-[68px] w-[68px] place-items-center rounded-full bg-primary text-lg/[1] text-white">
                   <FaPhone />
@@ -110,7 +110,7 @@ export function ServiceDetailsSection() {
             </div>
 
             {/* Search box  */}
-            <div className="bg-accent-100 p-10 dark:bg-accent-700">
+            {/* <div className="bg-accent-100 p-10 dark:bg-accent-700">
               <h3 className="h3 text-accent-700 dark:text-white">
                 Search Service
               </h3>
@@ -125,10 +125,10 @@ export function ServiceDetailsSection() {
                   <span className="relative z-1">SEARCH</span>
                 </Button>
               </div>
-            </div>
+            </div> */}
 
             {/* Testimonial    */}
-            <div className="grid gap-30px">
+            {/* <div className="grid gap-30px">
               <div className="relative z-1 bg-accent-100 p-10 dark:bg-accent-700">
                 <p>
                   {`At GETHUNZA, we are driven by a passion for innovation and excellence. Over the years, we’ve built a company that combines cutting-edge technologies like AI, blockchain, and eCommerce to deliver transformative web development solutions. Our mission is to empower businesses with intelligent, secure, and scalable digital platforms that push the boundaries of what's possible online. With a commitment to quality and customer satisfaction, we take pride in being a trusted partner for our clients’ digital growth and success.`}
@@ -161,7 +161,7 @@ export function ServiceDetailsSection() {
                   <p>CEO GETHUNZA</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Main Content  */}

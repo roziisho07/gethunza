@@ -14,18 +14,18 @@ export default function Page() {
   return (
     <>
       <MainHeader version="1" />
-        <HeroSection
-          // title="Services"
-          // breadcrumbItems={[
-          //   {
-          //     label: 'Home',
-          //     href: '/',
-          //   },
-          //   {
-          //     label: 'Service',
-          //   },
-          // ]}
-        />
+      <HeroSection
+      // title="Services"
+      // breadcrumbItems={[
+      //   {
+      //     label: 'Home',
+      //     href: '/',
+      //   },
+      //   {
+      //     label: 'Service',
+      //   },
+      // ]}
+      />
       <ServiceSection {...serviceSectionData} />
       <Footer />
     </>

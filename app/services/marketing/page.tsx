@@ -1,4 +1,4 @@
-import { Footer } from '@/src/layout/footer/v2';
+import { Footer } from '@/src/layout/footer/v1';
 import { MainHeader } from '@/src/layout/header';
 import { HeroSection } from '@/src/sections/hero/v3';
 import { ServiceDetailsSection } from '@/src/sections/service-details/marketing';
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <MainHeader version="2" />
+      <MainHeader version="1" />
       <HeroSection
        
       />
