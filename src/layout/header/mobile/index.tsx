@@ -32,6 +32,7 @@ export function MobileHeader() {
             <div className="flex items-center justify-between">
               <div className="max-w-[8.5rem] flex-none">
                 <BrandLogo />
+            
               </div>
 
               <OffCanvas menuItems={menuItems} />

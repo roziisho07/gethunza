@@ -3,9 +3,9 @@ import { menuItemsProps } from '../menu';
 
 export const headerData: HeaderProps = {
   contactInfo: {
-    phone: '(629) 555-0129',
-    mail: 'info@gethunza.com',
-    address: '6391 Elgin St. Celina, 10299',
+    phone: '+1 (737) 212-9083 ',
+    mail: 'hello@gethunza.com',
+    address: '',
   },
   ctaBtn: {
     href: '/contact',

@@ -50,8 +50,8 @@ export const footerSectionData: FooterSectionProps = {
   columnTwo: {
     title: 'Contact info',
     location: 'Darby Trails Dr, Sugar Land TX, 77479',
-    mails: ['info@gethunza.com', 'inquiry@gethunza.com'],
-    phoneNumbers: ['(405) 555-0128', '(629) 555-0129'],
+    mails: ['hello@gethunza.com', 'inquiry@gethunza.com'],
+    phoneNumbers: ['+1 (737) 212-9083' ],
   },
   columnThree: {
     title: 'Recent Blogs',

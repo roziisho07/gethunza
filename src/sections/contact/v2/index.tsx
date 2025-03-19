@@ -28,7 +28,7 @@ export const contactSectionData: ContactSectionProps = {
     },
     location: `Head office Gethunza, Darby Trails Dr, Sugar Land TX`,
     mail: 'hello@gethunza.com',
-    phone: '0000-0000-00-000',
+    phone: '+1 (737) 212-9083',
   },
 };
 

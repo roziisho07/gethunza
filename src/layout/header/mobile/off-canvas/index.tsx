@@ -55,9 +55,9 @@ interface IOffCanvas {
 
 const offCanvasProps: IOffCanvas = {
   contactInfo: {
-    location: ' 88 broklyn street, New York',
-    phoneNumber: '+1 555-9990-153',
-    mail: 'info@example.com',
+    location: 'Darby Trails Dr, Sugar Land TX',
+    phoneNumber: '+1 (737) 212-9083 ',
+    mail: 'hello@gethunza.com',
   },
   socialLinks: [
     {
