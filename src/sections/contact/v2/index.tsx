@@ -57,7 +57,7 @@ export function ContactSection() {
               <SectionHeading {...contactInfo.sectionHeading} />
             </div>
             <ul aria-label="addresses" className="grid gap-5">
-              <li className={addressItemClasses}>
+              {/* <li className={addressItemClasses}>
                 <span className={addressIconParentClasses}>
                   <FaMapMarkerAlt />
                 </span>
@@ -67,7 +67,7 @@ export function ContactSection() {
                     {contactInfo.location}
                   </address>
                 </div>
-              </li>
+              </li> */}
               <li className={addressItemClasses}>
                 <span className={addressIconParentClasses}>
                   <FaEnvelope />
