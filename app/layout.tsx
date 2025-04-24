@@ -29,6 +29,26 @@ export default async function RootLayout({ children }: Props) {
         'text-base leading-[1.875] text-accent-800 [&.dark]:text-body'
       )}
     >
+      <head>
+      {/* <!--Start of Tawk.to Script--> */}
+<script
+  type="text/javascript"
+  dangerouslySetInnerHTML={{
+    __html: `
+      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+      (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/680a04fa29a5a6191417773c/1ipji6t4v';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+      })();
+    `,
+  }}
+></script>
+{/* <!--End of Tawk.to Script--> */}
+      </head>
       <AOSInit />
       <body>
         <ThemeProvider
