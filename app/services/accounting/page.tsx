@@ -5,14 +5,25 @@ import { ServiceDetailsSection } from '@/src/sections/service-details/accounting
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Techlab | Service details',
-  description: 'Techlab - IT Solutions and Services React Nextjs Template',
+  title: 'GetHunza | Service Details',
+  keywords: 'GetHunza, service details, IT solutions, services',
+  openGraph: {
+    title: 'GetHunza | Service Details',
+    description: 'GetHunza - IT Solutions and Services',
+    url: 'https://gethunza.com/service-details',
+    
+    
+    siteName: 'GetHunza',
+    type: 'website',
+  },
+  
+  description: 'GetHunza - IT Solutions and Services',
 };
 
 export default function Page() {
   return (
     <>
-      <MainHeader version="2" />
+      <MainHeader version="1" />
       <HeroSection />
       <ServiceDetailsSection />
       <Footer />

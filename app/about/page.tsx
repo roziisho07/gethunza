@@ -11,8 +11,9 @@ import { WorkprocessSection } from '@/src/sections/work-process/v1';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Techlab | About',
-  description: 'Techlab - IT Solutions and Services React Nextjs Template',
+  title: 'GetHunza | IT Solutions and Services',
+  keywords: 'gethunza, IT solutions, services',
+  description: 'getHunza - IT Solutions and Services',
 };
 
 export default function Page() {

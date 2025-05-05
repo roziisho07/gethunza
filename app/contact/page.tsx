@@ -6,8 +6,8 @@ import { ContactSection } from '@/src/sections/contact/v2';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Techlab | Contact',
-  description: 'Techlab - IT Solutions and Services React Nextjs Template',
+  title: 'Gethunza | Contact Us',
+  description: 'Gethunza - IT Solutions and Services ',
 };
 
 export default function Page() {
